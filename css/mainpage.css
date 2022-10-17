@@ -123,8 +123,17 @@ body {
     font-weight: 700;
     font-size: 34px;
     padding-bottom: 24px;
-    color: white;
+    color: #222222;
 }
+
+.info-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 34px;
+    padding-bottom: 24px;
+    color: #FAFAFA;
+}
+
 
 .content-text {
     text-align: center;
@@ -149,6 +158,13 @@ body {
     padding: 0 10px;
 }
 
+/*.cardbox-icon {
+    border: 1px solid #fed601;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: -2em;
+}*/
+
 .row {
     display: flex;
     justify-content: center;
@@ -162,7 +178,7 @@ body {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 3px solid #fed601;
     padding: 16px;
     background-color: #f1f1f1;
 }
@@ -179,6 +195,12 @@ body {
     font-weight: 700;
     font-size: 20px;
     text-align: center;
+}
+
+.uppercase {
+    color: #fed601;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .card-title a {
@@ -255,6 +277,7 @@ body {
 
 .footer-link {
     text-decoration: none;
+    color: white;
 }
 
 .subhero {
